@@ -79,7 +79,7 @@ function appearAfterDelay() {
                 
 }
 
-/*
+
 function checkValue() {
     
     if (lastNum==document.getElementById("remember").value){
@@ -96,11 +96,11 @@ function checkValue() {
            
     document.getElementById("accuracy").innerHTML = correctRound + "/" + (round-1);
     
-    appearAfterDelay();
+
     
 }
 
-*/
+
 
 
 
@@ -126,8 +126,6 @@ document.getElementById("shape").onclick = function() {
     document.getElementById("numround").innerHTML = round + " trials";
     
     round = round + 1;
-    
-   // document.getElementById("button").onclick=checkValue();
     
     appearAfterDelay();
                   
