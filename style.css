@@ -1,0 +1,73 @@
+body{
+    
+    font-family: 'Indie Flower', cursive;
+    background-color: azure;
+    
+}
+
+#shape {
+    
+    background-color: antiquewhite;
+    display: table;
+    position: relative;
+    width: 200px;
+    height: 200px;
+    
+}
+
+h1 {
+    
+    text-align: center;
+    text-shadow: 2px 2px #FFD700;
+    font-family: 'Anton', sans-serif;
+}
+
+h3 {
+    
+    text-align: right;
+    color: #696969;
+}
+
+#timeresult {
+    
+    text-decoration: underline;
+    font-weight: bold;
+    color: crimson;
+    
+}
+
+
+#choiceresult {
+    
+    text-decoration: underline;
+    font-weight: bold;
+    color: darkblue;
+    
+}
+
+#rounds {
+    
+    text-decoration: underline;
+    font-weight: bold;
+    color: darkgreen;
+    
+}
+
+#numround, #timeTaken, #accuracy {
+    
+    text-decoration: none;
+    color: black;
+    font-size: 125%;
+    font-family: serif;
+}
+
+#value {
+    
+    display: table-cell;
+    font-family: serif;
+    font-size: 300%;
+    text-align: center;
+    vertical-align:middle;
+    
+}
+

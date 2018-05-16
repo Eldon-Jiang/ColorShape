@@ -1,0 +1,60 @@
+<html>
+
+    <head>
+        
+        <title>Color Shape Reaction Game</title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Anton|Indie+Flower" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        
+    
+    </head>
+
+    <body>
+        
+        <h1>Color Shape Reaction Game!</h1>
+        <h3>By Eldon Jiang</h3>
+        
+        <p>Want to play a game to see <b>how good your reaction is</b> and <b>how fast you can remember</b>?</p>
+        
+        <hr>
+        
+        <h2>Instruction:</h2>
+        
+        <ol type="1">
+        
+            <li><p>Clink on the shape as quickly as you can!</p></li>
+            
+            <li><p>Put in the number you saw and check it!</p></li>
+            
+        </ol>
+     
+        <hr>
+        
+        <form>
+            
+            The number you saw: <br>
+            
+            <input type="text" id="remember">
+            
+            <button id="button"> Check it! </button>
+       
+        </form>
+        
+        <img id="check" src="right.jpg" width= 50px display="none">
+               
+        <p id="rounds">Total Rounds: <span id="numround"></span></p>
+        
+        <p id="timeresult">Average Time: <span id="timeTaken"></span></p>
+        
+        <p id="choiceresult">Memory Accuracy: <span id="accuracy"></span></p>
+        
+        
+        <div id="shape"><span id="value"></span></div>
+        
+        <script  type="text/javascript" src="script.js"></script>
+        
+    </body>
+
+</html>
