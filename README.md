@@ -1,3 +1,3 @@
 # ColorShape
-A web game using JavaScript.
+A simple web game using JavaScript. Simple but fun :sparkles:
 
